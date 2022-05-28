@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "613058459119",
+    "project_id": "fotograf-paylasma-uygula-97fd2",
+    "storage_bucket": "fotograf-paylasma-uygula-97fd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613058459119:android:280432a939ee2baac4721a",
+        "android_client_info": {
+          "package_name": "com.hasanfurkan.fotografpaylasmauygulamasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613058459119-ee0gjsfdef9rufeukgcit1ehohra1rnh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCApTiPbf369Ik-yUWXAb2Pr27MtNm2fj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613058459119-ee0gjsfdef9rufeukgcit1ehohra1rnh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
