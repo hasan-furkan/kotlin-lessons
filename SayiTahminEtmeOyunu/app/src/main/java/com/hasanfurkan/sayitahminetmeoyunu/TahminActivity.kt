@@ -30,6 +30,10 @@ class TahminActivity : AppCompatActivity() {
             val tahmin = tasarim.textGirdi.text.toString().toInt()
 
 
+                if(TextUtils.isEmpty(tasarim.textGirdi.text.toString())){
+                    tasarim.textViewYardim.text = "Lutfen bir adet sayi giriniz"
+                    return@setOnClickListener
+                }
 
                 if(tahmin == rastgeleSayi){
                     val intent = Intent(this@TahminActivity,SonucActivity::class.java)
