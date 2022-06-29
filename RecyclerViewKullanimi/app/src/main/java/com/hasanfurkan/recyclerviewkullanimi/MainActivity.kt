@@ -3,6 +3,7 @@ package com.hasanfurkan.recyclerviewkullanimi
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -16,6 +17,9 @@ class MainActivity : AppCompatActivity() {
 
         rv.setHasFixedSize(true)
         rv.layoutManager = LinearLayoutManager(this@MainActivity)
+
+//        rv.layoutManager = StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
+//        rv.layoutManager = StaggeredGridLayoutManager(1, StaggeredGridLayoutManager.HORIZONTAL)
 
         val u1 = Ulkeler(1, "Turkiye")
         val u2 = Ulkeler(2, "Ispanya")
